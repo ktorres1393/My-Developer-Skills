@@ -18,11 +18,11 @@ main{
 }
 h1 {
     background-color: #94c47d ;
-    color: white;
-    padding: 10 px;
-    text-transform: uppercase;
-    font-family: Helvetica;
-    text-align: center;
+    color: white !important; 
+    padding: 10 px !important;
+    text-transform: uppercase !important;
+    font-family: Helvetica !important;
+    text-align: center !important;
 
 }
 
@@ -31,7 +31,7 @@ ul {
 }
 
 li, li span {
-    font-family: helvetica;
+    font-family: helvetica !important;
 }
 
 li{
@@ -41,8 +41,8 @@ li{
 }
 
 li span {
-    color: white;
-    margin-right: 10px;
+    color: white !important;
+    margin-right: 10px !important;
     text-align: center;
     background-color: red;
     padding: 5px;
@@ -50,17 +50,17 @@ li span {
 
 input, button {
     
-    border: 3px solid #94c47d;
-    height: 40px;
+    border: 3px solid #94c47d !important;
+    height: 40px !important;
 }
 input {
     width: 75%;
 }
 button{
-    background-color: #ffffff;
-    color: #94c47d;
-    text-transform: uppercase;
-    font-weight: 600;
-    width: 24%;
+    background-color: #ffffff !important;
+    color: #94c47d !important;
+    text-transform: uppercase!important;
+    font-weight: 600!important;
+    width: 24%!important;
 
 }
